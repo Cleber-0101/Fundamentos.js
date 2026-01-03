@@ -9,6 +9,10 @@ function somaDeNumeros(a,b){
 somaDeNumeros(5,3)
 
 
+// Refatorando funções
+const somaDeNumeros = (a,b) => a + b
+console.log(somaDeNumeros(5,5))
+
 
 // 2️⃣ Verificar maioridade
 
@@ -25,6 +29,18 @@ function IdadePessoa(idade){
     }
 }
 IdadePessoa(13)
+
+
+//Refatorando funções 
+const IdadePessoa = (idade) => {
+      if(idade >= 18){
+        console.log("Maior de idade")
+    }else {
+        console.log("Menor de idade")
+    }
+}
+
+
 
 
 // 3️⃣ Dobro de um número
