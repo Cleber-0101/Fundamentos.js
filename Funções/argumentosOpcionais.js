@@ -22,4 +22,4 @@ const cadastrar = (nome, cidade = "Não informada") => {
 }
 
 cadastrar("Ana", "São Paulo")
-cadastrar("João")
+cadastrar( "João")
