@@ -16,8 +16,7 @@ const falar = (nome = "Cleber") => {
 
 falar()
 
-
-const cadastrar = (nome, cidade = "Não informada") => {
+const cadastrar = (nome, cidade = " : cidade Não informada") => {
   console.log(nome + " mora em " + cidade)
 }
 

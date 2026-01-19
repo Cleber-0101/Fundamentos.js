@@ -63,4 +63,14 @@ detectaOsTipos("teste")
 detectaOsTipos(false)
 
 
+function textoLongo(texto){
+    if(texto.length > 10){
+        return "Texto muito longo"
+    }
+
+    return "Dentro do limite"
+}
+
+console.log(textoLongo("Ola mundo"))
+console.log(textoLongo("Ola mundoaaaaaaaaaaaaaaaaaaaaa"))
 

@@ -9,11 +9,6 @@ function somaDeNumeros(a,b){
 somaDeNumeros(5,3)
 
 
-// Refatorando funções
-const somaDeNumeros = (a,b) => a + b
-console.log(somaDeNumeros(5,5))
-
-
 // 2️⃣ Verificar maioridade
 
 // Crie uma função que receba a idade de uma pessoa e retorne:
@@ -30,19 +25,6 @@ function IdadePessoa(idade){
 }
 IdadePessoa(13)
 
-
-//Refatorando funções 
-const IdadePessoa = (idade) => {
-      if(idade >= 18){
-        console.log("Maior de idade")
-    }else {
-        console.log("Menor de idade")
-    }
-}
-
-
-
-
 // 3️⃣ Dobro de um número
 
 // Crie uma função que receba um número e retorne o dobro desse número.
@@ -55,3 +37,13 @@ function dobroDeNumero(numero){
 dobroDeNumero(1)
 dobroDeNumero(2)
 dobroDeNumero(3)
+
+
+function retornaNome(nome){
+    if (nome == "Cleber"){
+        return "ola DEv"
+    }
+}
+
+
+console.log(retornaNome("Cleber"))
