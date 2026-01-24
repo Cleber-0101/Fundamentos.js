@@ -1,11 +1,26 @@
-function exClousure(x){
-    return function(a){
-        return x + a
+function somarNumeros(){
+    let count = 0
+
+    return function(){
+        count++
+        return count
     }
 }
 
-let somarFuncoes =  exClousure(100)
-console.log(somarFuncoes(300))
+let c = somarNumeros()
+console.log(c())
+console.log(c())
+console.log(c())
+console.log(c())
+console.log(c())
 
-let somarFuncoes2 = exClousure(300)
-console.log(somarFuncoes2(300))
+
+
+function somarNumero(x){
+    return function(a){
+        return a + x
+    }
+}
+
+let f = somarNumero(1)
+console.log(f(5))
