@@ -1,5 +1,4 @@
 // criando objetos
-
 const pessoa = {
     nome : "cleber",
     idade:  26,
@@ -29,7 +28,7 @@ const atleta = {
     esporte: "muay-thai"
 }
 
-//geranca de propriedades
+//Herança de Objetos
 Object.assign(pessoa,atleta)
 
 console.log(pessoa)
